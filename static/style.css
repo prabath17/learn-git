@@ -1,3 +1,53 @@
-p{
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: left;
+  color: red;
+}
+
+
+p.name{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 800;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+#college{
+    font-size: larger;
+}
+
+*{
+    font-style: normal;
+}
+
+h5,h3{
+    font-size: large;
+}
+
+/* for table*/
+
+table, td{
+    border: 2px solid;
+    vertical-align: bottom;
+    border-collapse: collapse;
+}
+thead, th{
+    border: 2px solid;
+}
+tr{
+    height: 50px;
+}
+table{
+    width: 100%;
+}
+
+tr:hover{
+    background-color: aqua;
+    
+}
+td:hover{
+color: brown;
+background-color: chocolate;
+}
+
+/* table over */
